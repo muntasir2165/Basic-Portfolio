@@ -1,0 +1,73 @@
+/*The commented out block below was used for debugging the layout's paddings and margins*/
+/** {
+	border-width: 2px;
+	border-style: solid;
+	border-color: red;
+}*/
+
+.center {
+    /*margin: auto;*/
+    /*border: 3px solid green;*/
+    /*text-align: center;*/
+}
+
+body {
+    background-image: url("../images/small_steps.png");
+    background-color: #cccccc;
+}
+
+header {
+	background-color: #ffffff;
+	/*border-color: #cccccc;*/
+	padding-top: 2%;
+	padding-bottom: 2%;
+	position: relative;
+}
+
+header h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	/*padding: 10px;*/
+	height: 100%;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+nav {
+	display: inline-block;
+}
+
+section {
+	background-color: #ffffff;
+	/*border-color: #dddddd;*/
+	margin-top: 5%;
+	margin-bottom: 5%;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section header h2 {
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 2%;
+}
+
+section hr {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	color: #ffffff;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	/*margin-bottom: 0;*/
+	border-top: 5px;
+	border-color: #4aaaa5;
+	border-style: solid;
+}
