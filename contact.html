@@ -13,12 +13,14 @@
     <!-- <div class="mainContent"> -->
 
       <header>
-        <h1>Muntasir Biojid</h1>
-        <nav>
-          <a href="./index.html">About</a> |
-          <a href="./portfolio.html">Portfolio</a> |
-          <a href="./contact.html">Contact</a>
-        </nav>
+        <div class="headerContent">
+          <h1>Muntasir Biojid</h1>
+          <nav>
+            <a href="./index.html">About</a> |
+            <a href="./portfolio.html">Portfolio</a> |
+            <a href="./contact.html">Contact</a>
+          </nav>
+        </div>
       </header>
 
       <section>
@@ -26,15 +28,15 @@
           <h2>Contact</h2>
         </header>
         <hr>
-        <form>
-          Name<br>
-          <input type="text" name="name" placeholder="John Smith"><br>
-          Email<br>
-          <input type="email" name="email" placeholder="example@gmail.com"><br>
-          Message<br>
-          <textarea rows="4" cols="30">
+        <form id="contactForm">
+          <label for="name">Name</label><br>
+          <input type="text" name="name" id="name" placeholder="John Smith"><br>
+          <label for="email">Email</label><br>
+          <input type="email" name="email" id="email" placeholder="example@gmail.com"><br>
+          <label for="message">Message</label><br>
+          <textarea rows="10" cols="30" name="message" id="message">
           </textarea><br>
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" id="formSubmit">
         </form>
       </section>
 
