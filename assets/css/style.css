@@ -120,7 +120,7 @@ footer {
 	border-color: #4aaaa5;
 	border-style: solid;
 	padding-top: 2%;
-	padding-bottom: 2%
+	padding-bottom: 2%;
 }
 
 #contactForm {
@@ -167,11 +167,18 @@ td {
 }
 
 td img {
-	width: 160px;
-	height: auto;
+	/*width: 160px;
+	height: auto;*/
 /*	border-width: 1px;
 	border-color: blue;
 	border-style: solid;*/
+	    /*position: relative;*/
+    /*float: left;*/
+    width:  160px;
+    height: 120px;
+    /*background-position: 50% 50%;*/
+    /*background-repeat:   no-repeat;*/
+    /*background-size:     cover;*/
 }
 
 .workTitle {
