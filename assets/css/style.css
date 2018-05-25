@@ -5,12 +5,6 @@
 	border-color: red;
 }*/
 
-.center {
-    /*margin: auto;*/
-    /*border: 3px solid green;*/
-    /*text-align: center;*/
-}
-
 body {
     background-image: url("../images/small_steps.png");
     background-color: #cccccc;
@@ -18,19 +12,13 @@ body {
 
 .headerContent {
 	width: 960px;
-	/*width: 640px;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 header {
 	background-color: #ffffff;
-	/*height: 50px;*/
-	/*border-color: #cccccc;*/
-	/*padding-top: 2%;*/
-	/*padding-bottom: 2%;*/
 }
-
 
 header h1 {
 	background-color: #4aaaa5;
@@ -40,8 +28,6 @@ header h1 {
 	height: 50px;
 	font-size: 30px;
 	font-weight: bold;
-	/*height: auto;*/
-	/*border: 1px solid blue;*/
     box-sizing: border-box;
 }
 
@@ -53,7 +39,17 @@ nav {
 	display: inline-block;
 	float: right;
 	font-size: 20px;
-	padding: 2% 0% 2% 2%;`
+	padding: 2% 0% 2% 2%;
+}
+
+nav a {
+    text-decoration: none;
+    padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+nav a:hover {
+	background-color: #4aaaa5;
 }
 
 section {
@@ -62,8 +58,6 @@ section {
 	margin-top: 3%;
 	margin-bottom: 3%;
     width: 960px;
-    /*width: 640px;*/
-    /*height: 450px;*/
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3%;
@@ -83,32 +77,17 @@ section hr {
 
 #aboutMeInfo {
 	margin-right: 2%;
+	padding-left: 2%;
 }
 
 #profilePic {
-	margin-left: 2%;
 	margin-right: 2%;
 	float: left;
-}
-
-p span {
-	/*padding-left: 2%;*/
-	/*border-color: #4aaaa5;
-	border-style: solid;
-	border-width: 2px;*/
+	height: 200px;
+	width: 300px;
 }
 
 footer {
-	/*text-align: center;
-	background-color: #666666;
-	color: #ffffff;
-	padding-top: 2%;
-	padding-bottom: 2%;*/
-	/*margin-bottom: 0;*/
-	/*border-top: 5px;
-	border-color: #4aaaa5;
-	border-style: solid;*/
-
 	position: fixed;
     left: 0;
     bottom: 0;
@@ -127,10 +106,6 @@ footer {
 	width: 320px;
 	margin-left: auto;
 	margin-right: auto;
-	/*position: relative;
-	 top: 25%;
-	 left: 50%;
-	 transform: translate(-50%, -25%);*/
 }
 
 #name, #email, #message {
@@ -150,49 +125,24 @@ footer {
 
 table {
 	width: 100%;
-	/*margin: 0 auto;*/
-/*	border-width: 1px;
-	border-color: #000000;
-	border-style: solid;*/
 	text-align: center;
 }
 
 td {
-	/*width: 33%;*/
-	/*border-width: 1px;
-	border-color: #000000;
-	border-style: solid;*/
 	padding: 1%;
 	position: relative;
 }
 
 td img {
-	/*width: 160px;
-	height: auto;*/
-/*	border-width: 1px;
-	border-color: blue;
-	border-style: solid;*/
-	    /*position: relative;*/
-    /*float: left;*/
     width:  160px;
     height: 120px;
-    /*background-position: 50% 50%;*/
-    /*background-repeat:   no-repeat;*/
-    /*background-size:     cover;*/
 }
 
 .workTitle {
-	/*float: left;*/
-	/*z-index: 2;*/
 	position: absolute;
 	bottom: 15%;
 	left: 160px;
-width: 160px;
-	/*display: block;*/
-	/*border-width: 1px;
-	border-color: #000000;
-	border-style: solid;*/
-	/*padding: 1%;*/
+	width: 160px;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	color: #ffffff;
